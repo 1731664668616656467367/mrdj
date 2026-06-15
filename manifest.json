@@ -2,12 +2,13 @@
   "name": "每日记账",
   "short_name": "记账",
   "description": "轻松熊风格记账工具 - 记录每日支出",
-  "start_url": ".",
+  "start_url": "/mrdj/",
+  "scope": "/mrdj/",
   "display": "standalone",
-  "background_color": "#fefaf0",
-  "theme_color": "#a67b5b",
+  "background_color": "#0d1117",
+  "theme_color": "#00d4aa",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/mrdj/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/mrdj/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
