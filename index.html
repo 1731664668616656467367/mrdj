@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta name="theme-color" content="#a67b5b" />
-<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#00d4aa" />
+<link rel="manifest" href="/mrdj/manifest.json" />
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>每日记账 - Hello Kitty</title>
@@ -659,7 +659,7 @@ renderDaily();
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch(() => {});
+    navigator.serviceWorker.register("/mrdj/sw.js", {scope: "/mrdj/"}).catch(() => {});
   });
 }
 </script>
