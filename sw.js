@@ -1,5 +1,5 @@
-const CACHE = "expense-cache-v1";
-const URLS = ["/", "/manifest.json", "/icon-192.png", "/icon-512.png"];
+﻿const CACHE = "expense-cache-v1";
+const URLS = ["/", "manifest.json", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
